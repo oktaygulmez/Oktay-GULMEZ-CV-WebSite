@@ -1,0 +1,130 @@
+body
+{
+    font-family: 'Raleway', sans-serif;   
+    width:100%;
+    height: auto;
+}
+.img-fluid
+{
+    width:100%;
+    height: auto;
+    opacity: 0.3;
+}
+header
+{
+    width:100%;
+    height: auto;
+    background-color: black;
+}
+.container
+{
+    padding-top: 40px;
+    text-align: center;
+}
+.fas
+{
+   padding-right: 10px; 
+   font-size: 25px;
+}
+.navbar
+{
+    position: sticky;
+    top:0;
+    z-index: 1;
+}
+.nav-item
+{
+    padding-right: 10px;
+}
+.navbar-nav :hover
+{
+    text-shadow: 4px 3px 2px #000;
+}
+.img
+{
+    width: 150px;
+    border-radius: 150px;
+    float: left;
+}
+#liste li
+{
+    padding-bottom: 15px;
+}
+.row
+{
+    padding-bottom: 50px;
+}
+.h2
+{
+    text-shadow: 5px 4px 3px #000;
+}
+
+@import "https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap";
+
+.animation_text h1 {
+position: absolute;
+font-family:"Poppins",Sans-serif;
+text-align:center;
+color:rgb(212, 212, 212);
+font-size: 60px;
+font-weight:500;
+top:50%;
+left:50%;
+transform: translate(-50%,-50%); 
+}
+
+.animation_text h1 span {
+color:#56A274
+}
+
+@media(max-width:768px) {
+.animation_text h1 {
+font-size:30px;
+top:30%;
+}
+}
+
+.container .progress-bar1 {
+animation: progress-animation1 5s forwards;
+animation-iteration-count: infinite;
+}
+@keyframes progress-animation1{
+    0% {width:0%;}
+    100% {width:90%;}  
+}
+
+.container .progress-bar2 {
+animation: progress-animation2 5s forwards;
+animation-iteration-count: infinite;
+}
+@keyframes progress-animation2{
+    0% {width:0%;}
+    100% {width:80%;}  
+}
+
+.container .progress-bar3 {
+ animation: progress-animation3 5s forwards;
+ animation-iteration-count: infinite;
+}
+@keyframes progress-animation3{
+    0% {width:0%;}
+    100% {width:85%;}  
+}
+
+.container .progress-bar4 {
+    animation: progress-animation4 5s forwards;
+    animation-iteration-count: infinite;
+   }
+   @keyframes progress-animation4{
+     0% {width:0%;}
+     100% {width:60%;}  
+   }
+
+.container .progress-bar5 {
+    animation: progress-animation5 5s forwards;
+    animation-iteration-count: infinite;
+   }
+   @keyframes progress-animation5{
+    0% {width:0%;}
+    100% {width:20%;}  
+}
